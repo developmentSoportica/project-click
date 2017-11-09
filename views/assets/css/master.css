@@ -1,0 +1,299 @@
+/*scroll*/
+::-webkit-scrollbar {width:10px;}
+::-webkit-scrollbar-track {background-color:white;}
+::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 0.2);}
+/* styles header app */
+.header-app{
+    background:#f44336;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.header-app img{
+    margin-top:60px;
+    width:150px;
+    height:auto;
+}
+.div-row-header,.div-row1-header{
+    display: flex;
+}
+.div-row-header a,.div-row1-header a{
+    color: white;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-weight: 900;
+    background: tomato;
+    padding:15px;
+    font-size: 17px;
+    transition: .5s all ease;
+}
+.div-row-header a:hover,.div-row1-header a:hover{
+    background: none;
+    text-decoration: none;
+    padding-top: 5px;
+    transition: .5s all ease-out;
+    border-bottom:3px solid tomato;
+}
+.h2-signin a{
+    background:#009688;
+    border-radius:4px;
+}
+/* fin styles header app */
+/* styles container1 */
+.div-container1-app{
+    background-image: url("https://static.pexels.com/photos/428105/pexels-photo-428105.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:662px;
+}
+.div-container1-app h1{
+    margin-top:120px;
+    font-size:10vh;
+    color: white;
+    font-family: 'Knewave';
+}
+/* styles a content1 */
+.div-father-a-conten1{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-father-a-conten1 a{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 900;
+    font-family: 'Roboto';
+    background:#f44336;
+    height:55px;
+    transition: .5s all ease-out;
+}
+.div-father-a-conten1 a:hover{
+    transition: .5s all ease-out;
+    background: none;
+    color: white;
+    text-decoration: none;
+    border:2px solid white;
+}
+/* fin styles a */
+.div-container1-app h2{
+    width:35%;
+    color: white;
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Knewave';
+    margin-bottom:70px;
+}
+.div-container1-app i{
+    color: white;
+}
+/* fin styles container 1 */
+/* styles content2 */
+.div-row-content2{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    height: 100vh;
+    background:#dadada;
+}
+.div-row-content2 h1{
+    color:#555;
+    text-align: center;
+    font-size:9vh;
+    font-weight: bold;
+    font-weight: 900;
+    font-family: 'Roboto';
+    margin-bottom:70px;
+    width: 25%;
+    text-align: left;
+    border-bottom:3px solid #555;
+}
+.div-row-content2 p{
+    font-family: 'Roboto';
+    color: #444;
+    width: 80%;
+    font-size: 20px;
+}
+.div-row-1-content2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://static.pexels.com/photos/194087/pexels-photo-194087.jpeg");
+    background-attachment: fixed;
+    background-position:right;
+    background-size: cover;
+}
+/* fin styles content2 */
+/* styles content3 */
+.div-container3-app{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #fff;
+}
+.div-container3-app h1{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 9vh;
+    color: #444;
+    font-weight: bold;
+    font-weight: 900;
+    font-family: 'Roboto';
+}
+.div-container3-app p{
+    color: #555;
+    font-family: 'Roboto';
+    width: 50%;
+    font-size: 20px;
+}
+.div-fathertext-content3{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.div-fathertext-content3 img{
+    width: 100px;
+    height: 100px;
+}
+/* target-profile */
+.div-target-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #dadada;
+    width: 25%;
+    height:340px;
+}
+.div-user-profile{
+    background-image: url("https://static.pexels.com/photos/324658/pexels-photo-324658.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    /* background: #fff; */
+}
+.div-target-profile h2,.div-target-profile h3{
+    color: #444;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-weight: 900;
+}
+.div-social-profile{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+/* fin styles content3 */
+/* sytles container4 */
+.div-container4{
+    width: 100%;
+    display: flex;
+    background:#dadada;
+}
+.div-row-content4{
+    width: 100%;
+    background-image: url("https://static.pexels.com/photos/194926/pexels-photo-194926.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100vh;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius:  50%;
+}
+.div-row1-content4{
+    height: 100vh;
+    width: 100%;
+    background:#dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div-row1-content4 h1{
+    color: #444;
+    font-size: 9vh;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-weight: 900;
+    border-bottom: 2px solid #444;
+    margin-top: 25px;
+    margin-bottom:45px;
+}
+.div-row1-content4 p{
+    width: 80%;
+    font-family: 'Roboto';
+    color:#555;
+    font-size: 20px;
+}
+/* fin styles container4 */
+/* sytles container5 */
+.div-container5{
+    width: 100%;
+    display: flex;
+    background:#dadada;
+}
+.div-row-content5{
+    width: 100%;
+    background-image: url("https://static.pexels.com/photos/194926/pexels-photo-194926.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100vh;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius:  50%;
+}
+.div-row1-content5{
+    height: 100vh;
+    width: 100%;
+    background:#dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div-row1-content5 h1{
+    color: #444;
+    font-size: 9vh;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-weight: 900;
+    margin-top: 25px;
+    border-bottom: 2px solid #444;
+    margin-bottom:45px;
+}
+.div-row1-content5 p{
+    width: 80%;
+    font-family: 'Roboto';
+    color:#555;
+    font-size: 20px;
+}
+/* fin styles container5 */
+/* footer */
+footer{
+    background: black;
+}
+/* fin footer  */
