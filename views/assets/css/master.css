@@ -28,7 +28,7 @@
     font-family: 'Lato';
     font-weight: bold;
     font-weight: 900;
-    background: tomato;
+    background: none;
     padding:15px;
     font-size: 17px;
     transition: .5s all ease;
@@ -36,15 +36,28 @@
 .div-row-header a:hover,.div-row1-header a:hover{
     background: none;
     text-decoration: none;
-    padding-top: 5px;
+    padding-top: 3px;
     transition: .5s all ease-out;
-    border-bottom:3px solid tomato;
+    border-bottom:3px solid #fff;
+    color: white;
 }
 .h2-signin a{
     background:#009688;
     border-radius:4px;
 }
 /* fin styles header app */
+/* header mobile app */
+.header-app-mobile{
+    background: red;
+    width: 100%;
+    height: 100px;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    z-index:2;
+    position: absolute;
+}
+/* fin header mobile app */
 /* styles container1 */
 .div-container1-app{
     background-image: url("https://static.pexels.com/photos/428105/pexels-photo-428105.jpeg");
@@ -103,7 +116,7 @@
     font-weight: bold;
     font-weight: 900;
     font-family: 'Lato';
-    background:#f44336;
+    background:#404040;
     height:55px;
     transition: .5s all ease-out;
 }
@@ -131,7 +144,7 @@
 .div-row-content2{
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items:center;
     flex-direction: column;
     height: 100vh;
     background:#dadada;
@@ -150,16 +163,17 @@
 .div-row-content2 p{
     font-family: 'Lato';
     color: #444;
-    width: 80%;
-    font-size: 20px;
+    width: 90%;
+    font-size: 16px;
 }
-.div-row-1-content2{
-    width: 100%;
+.div-row-1-content2{    
+    width:20%;
     height: 100vh;
-    background-image: url("https://static.pexels.com/photos/194087/pexels-photo-194087.jpeg");
-    background-attachment: fixed;
-    background-position:right;
-    background-size: cover;
+    background-image: url("../../assets/images/trapecio.png");
+    background-position: center;
+    background-size: cover; 
+    /* border-top: 100vh solid tomato; 
+    border-left: 200px solid transparent; */
 }
 /* fin styles content2 */
 /* styles content3 */
@@ -185,7 +199,7 @@
     color: #555;
     font-family: 'Lato';
     width: 50%;
-    font-size: 20px;
+    font-size: 16px;
 }
 .div-fathertext-content3{
     display: flex;
@@ -196,6 +210,7 @@
 .div-fathertext-content3 img{
     width: 100px;
     height: 100px;
+    margin-left:70px;
 }
 /* target-profile */
 .div-target-profile{
@@ -268,7 +283,7 @@
     width: 80%;
     font-family: 'Lato';
     color:#555;
-    font-size: 20px;
+    font-size: 16px;
 }
 /* fin styles container4 */
 /* sytles container5 */
@@ -310,7 +325,7 @@
     width: 80%;
     font-family: 'Lato';
     color:#555;
-    font-size: 20px;
+    font-size:16px;
 }
 /* fin styles container5 */
 /* footer */
@@ -325,7 +340,7 @@ footer{
         .div-container1-app h1{font-size:8vh;}
         .div-container1-app h2{width: 100%;
             font-size: 3vh;
-        }
+        }   
         .div-father-a-conten1 a{width: 100%;}
         /*  */
         /* responsive content3 */
@@ -335,4 +350,7 @@ footer{
         /* responsive content4 */
         .div-container4{flex-direction: column;}
         .div-row-content4,.div-row-content5{display: none;}
+    }
+    @media (max-width:1200px){
+        .header-app-mobile{display: none;}
     }
